@@ -1,0 +1,25 @@
+{
+  "name": "gitbook-plugin-multilang-pdf-download",
+  "version": "1.0.0",
+  "description": "GitBook plugin to specify download pdf links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandax/gitbook-plugin-multilang-pdf-download.git"
+  },
+  "keywords": [
+    "gitbook",
+    "plugin",
+    "download",
+    "pdf"
+  ],
+  "author": "Anderson Ferreira Pinto (mandax)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mandax/gitbook-plugin-multilang-pdf-download/issues"
+  },
+  "homepage": "https://github.com/mandax/gitbook-plugin-multilang-pdf-download#readme"
+}
