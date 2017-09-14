@@ -14,7 +14,7 @@
         "type": "string"
       },
       "file-name": {
-        "default": "file_${lang}.pdf",
+        "default": "file_{lang}.pdf",
         "required": true,
         "title": "PDF file name base",
         "type": "string"
@@ -48,7 +48,5 @@
     "url": "https://github.com/mandax/gitbook-plugin-multilang-pdf-download/issues"
   },
   "homepage": "https://github.com/mandax/gitbook-plugin-multilang-pdf-download#readme",
-  "dependencies": {
-    "lodash": "^4.17.4"
-  }
+  "dependencies": {}
 }

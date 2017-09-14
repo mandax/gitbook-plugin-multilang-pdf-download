@@ -1,11 +1,11 @@
-var inject = ['gitbook', 'lodash']
+var inject = ['gitbook']
 
-function plugin(gitbook, _) {
+function plugin(gitbook) {
 
   function initialize(e, config) {
     var conf = config['multilang-pdf-download']
     var lang = gitbook.state.innerLanguage
-    var name = _.template(conf.fileName)({ lang: lang })
+    var name = conf['file-name'].replace('{lang}', lang)
 
     gitbook.toolbar.createButton({
       icon: 'fa fa-file-pdf-o',
