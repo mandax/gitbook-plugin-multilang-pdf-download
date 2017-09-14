@@ -13,7 +13,7 @@
         "title": "URL base to PDF",
         "type": "string"
       },
-      "fileName": {
+      "file-name": {
         "default": "file_${lang}.pdf",
         "required": true,
         "title": "PDF file name base",
