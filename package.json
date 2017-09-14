@@ -3,6 +3,32 @@
   "version": "1.0.0",
   "description": "GitBook plugin to specify download pdf links",
   "main": "index.js",
+  "engines": {
+    "gitbook": ">2.5.0"
+  },
+  "gitbook": {
+    "properties": {
+      "base": {
+        "required": true,
+        "title": "URL base to PDF",
+        "type": "string"
+      },
+      "fileName": {
+        "default": "file_${lang}.pdf",
+        "required": true,
+        "title": "PDF file name base",
+        "type": "string"
+      },
+      "label": {
+        "default": "Download PDF",
+        "title": "PDF button label",
+        "type": [
+          "string",
+          "object"
+        ]
+      }
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +47,8 @@
   "bugs": {
     "url": "https://github.com/mandax/gitbook-plugin-multilang-pdf-download/issues"
   },
-  "homepage": "https://github.com/mandax/gitbook-plugin-multilang-pdf-download#readme"
+  "homepage": "https://github.com/mandax/gitbook-plugin-multilang-pdf-download#readme",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
 }
